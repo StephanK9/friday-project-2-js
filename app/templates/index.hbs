@@ -2,5 +2,11 @@
 
 <p>We hope you find the answers to all your questions!.</p>
 
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.author}}: {{question.content}} notes: {{question.notes}}</li>
+  {{/each}}
+</ul>
+
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
