@@ -2,13 +2,25 @@
 
 <p>We hope you find the answers to all your questions!.</p>
 
+<h2> All Questions: </h2>
+
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
      {{question-tile question=question}}
   {{/each}}
 </ul>
 
 {{new-question saveQuestion2="saveQuestion3"}}
+
+<h2> All Answers: </h2>
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.author}} - {{answer.content}}</li>
+  {{/each}}
+</ul>
+
+<hr>
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}

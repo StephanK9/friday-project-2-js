@@ -10,5 +10,12 @@
     "author": "Violet Beauregarde",
     "content": "When does the eclipse happen?",
     "notes": "I love space stuff!"
+  }],
+  "answers": [{
+    "author": "Venus",
+    "content": "Your answer is this blah blah."
+  }, {
+    "author": "Lucas Monk",
+    "content": "The moon is big."
   }]
 }
