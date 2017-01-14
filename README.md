@@ -1,6 +1,8 @@
 # Question & Answers!
 
-This web application allows users to submit questions on a message board. Submit a question, or respond to answers as you please!
+01/13/2017
+
+This web application allows users to submit questions on a message board. Submit a question, or respond to answers as you please! You can add, delete, or update any question and any answer. Enjoy!
 
 By Stephan Khoury
 
@@ -51,3 +53,9 @@ App is deployed using a local web server: http://localhost4200, using ember.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## License
+
+No license at this time.
+
+Copyright (c) 2017 **Stephan Khoury**
