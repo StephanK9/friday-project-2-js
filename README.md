@@ -1,7 +1,8 @@
-# question-answers
+# Question & Answers!
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This web application allows users to submit questions on a message board. Submit a question, or respond to answers as you please!
+
+By Stephan Khoury
 
 ## Prerequisites
 
@@ -15,8 +16,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd question-answers`
+* `git clone <https://github.com/StephanK9/friday-project-2-js>` this repository
+* `cd (into the project directory)`
 * `npm install`
 * `bower install`
 
@@ -41,7 +42,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+App is deployed using a local web server: http://localhost4200, using ember.
 
 ## Further Reading / Useful Links
 
